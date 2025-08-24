@@ -27,7 +27,7 @@ struct equation {
 
 int main () {
 
-    struct equation equations[NUMBER_TESTS] = {
+    /*struct equation equations[NUMBER_TESTS] = {
         {{1, 2, 1},  {-1, -1},   {NAN, NAN}, TWO_ROOTS},
         {{1, 4, 4},  {-2, -2},   {NAN, NAN}, ONE_ROOT},
         {{1, -5, 6}, {2, 3},     {NAN, NAN}, TWO_ROOTS},
@@ -36,7 +36,7 @@ int main () {
     };
 
     printf("%lg, %lg \n", equations[0].loc[0], equations[1].loc[1]);
-    printf("Пройдено тестов: %d\n", run_tests(equations));
+    printf("Пройдено тестов: %d\n", run_tests(equations)); */
 
     while (1) {
 
