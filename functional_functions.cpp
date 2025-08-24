@@ -168,29 +168,3 @@ int len_array_double(const double *array_double) {
     return sizeof(array_double) / sizeof(array_double[0]);
 
 }
-
-int copy_array_double(const double *array_o, double *array_c) {
-
-    int len_o = len_array_double(array_o);
-
-    for (int i = 0; i < len_o; i++) {
-
-        array_c[i] = array_o[i];
-
-    }
-
-    return 1;
-
-}
-
-int len_array_struct_equation(const struct equation *equations) {
-
-    if (sizeof(equations) == 1) {
-
-        return 0;
-
-    }
-
-    return sizeof(equations) / sizeof(equations[0]);
-
-}

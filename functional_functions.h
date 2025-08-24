@@ -54,12 +54,5 @@ int fill_array_double(double *array_double, double number_to_fill);
  */
 int len_array_double(const double *array_double);
 
-/**
- *
- */
-int copy_array_double(const double *array_o, double *array_c);
-
-int len_array_struct_equation(const struct equation *equations);
-
 
 #endif // FUNCTIONAL_FUNCTIONS_H_INCLUDED
